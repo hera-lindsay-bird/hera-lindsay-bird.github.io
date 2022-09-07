@@ -6,13 +6,19 @@ body {
           }
 h1 {
     color:#cbffba;
+    text-align: center;
+    
 } 
+
+h2 {
+    color:black;
+    font-size: 50px;
+}
 .bigfont { font-size: 75px;
          }
 .smaller-image { width:300px;
                }
-.fat-yellow-border {
-    border-color: ##feffb4;
-    border-width: 100px
-    border-style: thick
+.medium-image {
+    width: 90%;
 }
+

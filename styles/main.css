@@ -1,9 +1,18 @@
-body {background: #c3571b;
-      font-family:'Goblin One', cursive;
-      color:#FFFFD5 ;
+
+body {
+    background: #c3571b;
+    font-family:'Goblin One', cursive;
+    color:#FFFFD5 ;
           }
 h1 {
     color:#cbffba;
 } 
 .bigfont { font-size: 75px;
          }
+.smaller-image { width:300px;
+               }
+.fat-yellow-border {
+    border-color: ##feffb4;
+    border-width: 100px
+    border-style: thick
+}

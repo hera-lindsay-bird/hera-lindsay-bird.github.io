@@ -1,8 +1,9 @@
-body {background: #fbb2f6;
+body {background: #c3571b;
       font-family:'Goblin One', cursive;
+      color:#FFFFD5 ;
           }
 h1 {
-    color:chartreuse;
+    color:#cbffba;
 } 
 .bigfont { font-size: 75px;
          }

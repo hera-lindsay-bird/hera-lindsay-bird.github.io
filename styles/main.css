@@ -18,7 +18,7 @@ body {
      }
 h1  {
     color:#cbffba;
-    text-align: center;
+    text-align: left;
     } 
 
 h2 {
@@ -28,7 +28,7 @@ h2 {
     }
 
 h3 {
-    background:#927E15    
+    background:#fcfcfb    
     }
 ul {
     
@@ -42,6 +42,7 @@ ul li{
 }
 ul li a{
     padding: 0 20px;
+    display: block;
     
     }
 

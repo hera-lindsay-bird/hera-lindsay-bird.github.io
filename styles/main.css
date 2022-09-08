@@ -1,4 +1,16 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    
+}
 body {
     background:#a24a03;
     font-family:'Goblin One', cursive;
@@ -17,6 +29,20 @@ h2 {
 
 h3 {
     background:#927E15    
+    }
+ul {
+    
+}
+ul li{
+    list-style: none;
+    display: inline-block;  
+    float: left;
+    line-height: 100px;
+    
+}
+ul li a{
+    padding: 0 20px;
+    
     }
 
 .bigfont { 

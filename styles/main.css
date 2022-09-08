@@ -29,7 +29,7 @@ h2 {
     }
 
 h3 {
-    background: palevioletred    
+    background: #b0d374    
     }
 ul {
     
@@ -46,14 +46,8 @@ ul li a{
     display: block;
     
     }
-.wrapper {
-    margin: 0 auto;
-    width: 1000px;
-    
-}
-
 .bigfont { 
-    font-size: 75px;
+    font-size: 50px;
    }
 
 .smaller-image { width:300px;
@@ -76,5 +70,3 @@ ul li a{
         background-color:seagreen;
     }
     
-
-

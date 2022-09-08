@@ -1,30 +1,37 @@
 
 body {
-    background:#ae5a2a;
+    background:#ffffff00;
     font-family:'Goblin One', cursive;
-    color:#e8add9 ;
-          }
-h1 {
+    color:#e8add9;
+     }
+h1  {
     color:#cbffba;
     text-align: center;
-    
-} 
+    } 
 
 h2 {
     background-color:#ffffff;
     color: black;
     font-size: 20px;
-}
+    }
 
 h3 {
     background:#927E15    
-    
-}
-.bigfont { font-size: 75px;
-         }
+    }
+
+.bigfont { 
+    font-size: 75px;
+   }
+
 .smaller-image { width:300px;
-               }
+   }
 .medium-image {
     width: 90%;
+}
+
+@media (max-width: 500px) {
+    body {
+        background-color:blue;
+    }
 }
 

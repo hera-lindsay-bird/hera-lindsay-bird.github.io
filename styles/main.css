@@ -1,6 +1,6 @@
 
 body {
-    background: #ae5a2a;
+    background:#ae5a2a;
     font-family:'Goblin One', cursive;
     color:#e8add9 ;
           }
@@ -11,8 +11,14 @@ h1 {
 } 
 
 h2 {
-    color:black;
-    font-size: 50px;
+    background-color:#ffffff;
+    color: black;
+    font-size: 20px;
+}
+
+h3 {
+    background:#927E15    
+    
 }
 .bigfont { font-size: 75px;
          }

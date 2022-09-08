@@ -14,8 +14,9 @@ nav {
 body {
     background:#a24a03;
     font-family:'Goblin One', cursive;
-    color:#e8add9;
+    color:#070707;
      }
+
 h1  {
     color:#cbffba;
     text-align: left;
@@ -28,12 +29,12 @@ h2 {
     }
 
 h3 {
-    background:#fcfcfb    
+    background: palevioletred    
     }
 ul {
     
 }
-ul li{
+ul li {
     list-style: none;
     display: inline-block;  
     float: left;
@@ -45,6 +46,11 @@ ul li a{
     display: block;
     
     }
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+    
+}
 
 .bigfont { 
     font-size: 75px;

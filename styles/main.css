@@ -5,8 +5,8 @@
 }
  
 nav {
-    position: sticky;
-    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
     height: 100px;
     background-color: #fff;
      
@@ -34,7 +34,7 @@ h3 {
     }
 
 ul {
-  font-size: 85%;
+  font-size: relative;
 }
 ul li {
     list-style: none;

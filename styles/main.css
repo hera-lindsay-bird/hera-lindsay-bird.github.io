@@ -7,10 +7,11 @@
 nav {
     max-width: 100%;
     overflow-x: hidden;
+    overflow-y: hidden;
     height: 100px;
     background-color: #fff;
-     
-}
+     }
+
 body {
     background:#a24a03;
     font-family:'Goblin One', cursive;

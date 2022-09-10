@@ -51,6 +51,38 @@ ul li a{
 .img {
    max-width: 100%;
 }
+
+
+.fat-yellow-border {
+  border-color: #FFFDC4;
+  border-width: 20px;
+  border-style: solid;
+  border-radius: 50%;  
+  }
+
+  
+  .thin-green-border {
+    border-color: #D5FE9B;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 20px;
+    }       
+
+        
+    .box {
+      background: yellow;
+      height: 100px;
+      width: 200px;
+      padding: 20px;
+      margin: 50px 50px;
+      border: 2px solid black;
+      border-radius: 15px;
+            }
+     
+     .black-box {
+      background-color: black;
+      padding: 20px;
+      }
  
  
 .parent {
@@ -92,6 +124,12 @@ ul li a{
    margin: 10px;  
 }
  
+.dv-box {
+  padding:250px;
+  background: gold;
+  border: 20px solid white;
+  margin: 10px;
+}
  
 @media all and (min-width: 320px) {
     body {

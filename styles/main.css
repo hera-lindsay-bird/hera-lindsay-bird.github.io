@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    text-align: center;
 }
  
 nav {
@@ -15,19 +16,17 @@ nav {
 body {
     background:#a24a03;
     font-family:'Goblin One', cursive;
-    color:#eb4040;
+    color: #341342;
      }
  
 h1  {
     color:#e4ed44;
-    text-align: left;
-    font-size: 50px;
+     font-size: 50px;
     } 
  
 h2 {
-    background-color:#000000;
     color: #ef61e2;
-    font-size: 10px;
+    font-size: 60px;
     }
  
 h3 {
@@ -52,7 +51,7 @@ ul li a{
    }
  
 .img {
-   max-width: 50%;
+   max-width: 100%;
 }
 
 
@@ -120,7 +119,7 @@ ul li a{
    position: relative;
    width: 75%;
    height: 100px;
-   background: #f11b40;
+   background: black;
    padding: 10%;
    text-align: center;
    margin: 10px;  
@@ -128,7 +127,7 @@ ul li a{
  
 .dv-box {
   position: relative;
-  background: gold;
+  background: white;
   padding:20px;
   text-align: center;
   margin: 20px;
@@ -139,7 +138,7 @@ ul li a{
   position: relative;
   width: 75%;
   height: 100%;
-  background: greenyellow;
+  background: white;
   padding: 0%;
   text-align: center;
   margin: 10px
@@ -149,14 +148,15 @@ ul li a{
   position: relative;
   width: auto;
   height: auto;
-  background: rgb(255, 255, 255);
   padding: 0%;
   text-align: center;
   margin: 10px
      }
 
-
-
+.readabletext {
+  color:#000000;
+  size: 10px;
+}
 
  
 @media all and (min-width: 320px) {
@@ -171,6 +171,6 @@ ul li a{
  
 @media all and (min-width: 1200px) {
         body {
-        background-color:seagreen;
+        background-color:whitesmoke;
     }
  

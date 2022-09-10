@@ -126,21 +126,34 @@ ul li a{
    margin: 10px;  
 }
  
+
+
+
 .dv-box {
-  padding:20%;
+  position: relative;
+  padding:20px;
   background: gold;
+  text-align: center;
   border: 20px solid white;
-  margin: 10px;
+  margin: 20px;
 }
+
+
 
 .dv-box-child {
   position: relative;
-  width: 75%;
-  height 75%;
+  width: 80%;
+  margin: 10%;
+  height: 80%;
   background: greenyellow;
-  padding: 10%;
+  padding: 20%;
   text-align: center;
-  }
+  border: 10px solid black;
+   }
+
+
+
+
  
 @media all and (min-width: 320px) {
     body {

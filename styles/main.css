@@ -52,7 +52,7 @@ ul li a{
    }
  
 .img {
-   max-width: 100%;
+   max-width: 50%;
 }
 
 
@@ -89,7 +89,7 @@ ul li a{
  
 .parent {
    position: relative;
-   background-color: #b35555;
+   background: #b35555;
    padding: 25px;
    text-align: center;
    margin: 15px;
@@ -126,29 +126,23 @@ ul li a{
    margin: 10px;  
 }
  
-
-
-
 .dv-box {
   position: relative;
-  padding:20px;
   background: gold;
+  padding:20px;
   text-align: center;
-  border: 20px solid white;
   margin: 20px;
+  border: 20px solid white;
 }
-
-
 
 .dv-box-child {
   position: relative;
-  width: 80%;
-  margin: 10%;
-  height: 80%;
+  width: 75%;
+  height: 100px%;
   background: greenyellow;
-  padding: 20%;
+  padding: 10%;
   text-align: center;
-  border: 10px solid black;
+  margin: 10px
    }
 
 

@@ -5,6 +5,7 @@
 }
  
 nav {
+    position: sticky;
     width: 100%;
     height: 100px;
     background-color: #fff;
@@ -19,7 +20,7 @@ body {
 h1  {
     color:#e4ed44;
     text-align: left;
-   font-size: 50px;
+    font-size: 50px;
     } 
  
 h2 {
@@ -32,6 +33,9 @@ h3 {
     background: #dd4278    
     }
 
+ul {
+  font-size: 85%;
+}
 ul li {
     list-style: none;
     display: inline-block;  
@@ -40,7 +44,7 @@ ul li {
 }
 ul li a{
     padding: 0 20px;
-    display: block;
+     display: block;
         }
  
 .smaller-image { width:90%;

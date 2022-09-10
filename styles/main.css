@@ -3,6 +3,7 @@
     padding: 0;
     text-decoration: none;
     text-align: center;
+    font-size: 12px;
 }
  
 nav {
@@ -17,17 +18,13 @@ body {
     background:#a24a03;
     font-family:'Goblin One', cursive;
     color: #341342;
+    line-height: 200%;
      }
  
 h1  {
     color:#e4ed44;
      font-size: 50px;
     } 
- 
-h2 {
-    color: #ef61e2;
-    font-size: 60px;
-    }
  
 h3 {
     background: #dd4278    
@@ -52,6 +49,7 @@ ul li a{
  
 .img {
    max-width: 100%;
+   text-align: center;
 }
 
 
@@ -85,6 +83,28 @@ ul li a{
   padding: 20px;
       }
  
+
+.banner {
+  position: relative;
+  display: flex;
+  background: rgb(187, 31, 31);
+  padding:20px;
+  text-align: center;
+  margin: 20px 10px;
+  border: 20px solid rgb(22, 183, 204);
+        }
+
+ h2 {
+  position: absolute;
+  color: #ef61e2;
+  width:auto;
+  padding: 5px;
+  height: auto;
+  margin:25px;
+  font-size:50px;
+  text-align: center;
+          }       
+      
  
 .parent {
    position: relative;
@@ -127,21 +147,22 @@ ul li a{
  
 .dv-box {
   position: relative;
-  background: white;
+  background: rgb(187, 31, 31);
   padding:20px;
   text-align: left;
   margin: 20px;
   border: 20px solid white;
 }
 
-
 .dv-box-child-one {
   position: relative;
+  background:greenyellow;
   width: auto;
   height: auto;
+  border: 10px solid wheat;
   padding: 0%;
   text-align: left;
-  margin: 10px
+  margin: 10px;
      }
      
 .dv-box-child-two {
@@ -168,8 +189,6 @@ ul li a{
 .greentext {
   color:lawngreen;
 }
-
-
  
 @media all and (min-width: 320px) {
     body {
@@ -185,4 +204,3 @@ ul li a{
         body {
         background-color:whitesmoke;
     }
- 

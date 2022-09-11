@@ -155,11 +155,20 @@ ul li a{
  
 .dv-box {
   position: relative;
-  background: #FFFDC4;
+  background: #e4ed44;
   padding:20px;
   text-align: center;
   margin: 3%;
   border: 20px solid pink;
+}
+
+.dv-box-black {
+  position: relative;
+  background: black;
+  padding:20px;
+  text-align: center;
+  margin: 3%;
+  border: 20px solid black;
 }
 
 .dv-box-child-one {
@@ -168,10 +177,21 @@ ul li a{
   width: auto;
   height: auto;
   border: 10px solid black;
-  padding: 4%;
+  padding: 0%;
   text-align: center;
   margin: 0px;
      }
+
+.dv-box-child-three {
+  position: relative;
+  background: white;
+  width: auto;
+  height: auto;
+  border: 10px solid black;
+  padding: 4%;
+  text-align: left;
+  margin: 0px;
+         }
 
 .box {
   background: yellow;
@@ -191,6 +211,7 @@ ul li a{
   padding: 0%;
   text-align: center;
   margin: 0px;
+  border: 10px solid, black;
 }
 
 .readabletext {

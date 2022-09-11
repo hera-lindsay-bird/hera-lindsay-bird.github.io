@@ -239,12 +239,12 @@ ul li a{
  
 @media all and (min-width: 320px) {
     body {
-        background-color:#ffffff;             
+        background-color:#e3d7f7;             
     }
  
 @media all and (min-width: 768px) {
     body {
-        background-color: #ffffff;
+        background-color: #FFFDC4;
     }
  
 @media all and (min-width: 1200px) {

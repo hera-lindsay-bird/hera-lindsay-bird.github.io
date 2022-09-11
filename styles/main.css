@@ -157,7 +157,7 @@ ul li a{
   position: relative;
   background: #FFFDC4;
   padding:20px;
-  text-align: left;
+  text-align: center;
   margin: 3%;
   border: 20px solid pink;
 }
@@ -190,7 +190,7 @@ ul li a{
   height: auto;
   padding: 0%;
   text-align: center;
-  margin: 10px;
+  margin: 0px;
 }
 
 .readabletext {

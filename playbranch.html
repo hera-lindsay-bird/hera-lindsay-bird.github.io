@@ -13,7 +13,8 @@
 
  .black {
   background-color: black;
- }
+  color: white;
+   }
  
   </style>
 
@@ -41,15 +42,15 @@
         But how do we arrange these "boxes" on the page? <br> <br>
 
       We are going to explore <span class="redtext">MARGINS</span> <span class="plumtext">BORDERS</span> and <span class="greentext">PADDING</span> using the analogy of a painting/art gallery. </div><br>
-     <img class="img" src="/img/exampleone.png" alt="crocodile picture"> 
+     <img class="img" src="/img/exampleonex.png" alt="crocodile picture"> 
      <div class="dv-box-child-three">We can think of a webpage like the wall of an art gallery. And we can think of our elements as paintings. 
       Say we have a number of paintings we want to hang on our gallery wall. Let's have a look at our painting. In this analogy, the painting represents our element. The area between the element and the border is called padding. The border is our picture frame. The margin is the invisible "forcefield" around each picture, which defines where each picture sits in relation to the other pictures on the wall <br><br></div>
     </div>
     <div class="box-demonstration">
       <div class="box">HERE IS A BOX</div>
    </div>
-    <div class="dv-box-black">
-      <div class="dv-box-child-one black">This is the code I used to create the box pictured above. Here is the HTML  </div>
+    <div class="dv-box">
+      <div class="dv-box-child-one">This is the code I used to create the box pictured above. Here is the HTML  </div>
       <br>
       <img class="img dv-box-child-two" src="/img/boxdemo.png" alt="test picture">
       <br>
@@ -61,51 +62,25 @@
     <br>
 
     <div class="dv-box">
-        <div class="dv-box-child dv-box-child-one">box three</div>
-        <img class="dv-box-child img" src="/img/frogfinal.jpg" alt="test picture"> 
-        <div class="dv-box-child dv-box-child-one">text in second box</div>
+        <div class="dv-box-child dv-box-child-one">The margin is the space around the “painting.” We can think of it as an invisible barrier, which surrounds each painting. If we want to make two “paintings” sitting beside one another a little further apart, we could edit the margin value of each painting by increasing the pixels or percentage, which would push the paintings further apart. 
+        </div>
+        <img class="dv-box-child img" src="/img/frogclean.jpg" alt="test picture"> 
+        <div class="dv-box-child dv-box-child-one">wow, the margins on these paintings sure are strange...</div>
     </div>
 
     <div class="dv-box">
-      <div class="dv-box-child-one">box three</div>
+      <div class="dv-box-child-one">
+        The border is the edge of the element or the “painting.” You don’t have to have a visible “border” but it’s always there, and you can make it visible by adjusting the size, width, colour and border style with css classes. You can think of the border like a picture frame. 
+        </div>
       <img class="img" src="img/frognoborder.jpg" alt="test picture"> 
-      <div class="child-three">hello hera</div>
+      <div class="dv-box-child dv-box-child-one">hmm, this painting seems to have an invisible picture frame</div>
   </div>
 
-   <div class="box-demonstration">
-      <div class="box">Here is a box</div>
-   </div>
-
-  <div class="dv-box">
-    <div class="dv-box-child-one">box three</div>
+    <div class="dv-box">
+    <div class="dv-box-child-one">Padding is the area between the border “picture frame” and the content “picture of frog playing the lute.” These paintings have no visible padding. Maybe they'd look nicer with a little breathing room?</div>
+    <img class="img" src="/img/frognomargins.jpg" alt="test picture"> 
+    <div class="dv-box-child-one">perfect!</div>
     <img class="img" src="/img/frogfinal.jpg" alt="test picture"> 
-    <div class="child-three">text in second box</div>
-</div>
-
-<div class="dv-box">
-  <div class="dv-box-child-one">box three</div>
-  <img class="img" src="/img/frogfinal.jpg" alt="test picture"> 
-  <div class="dv-box-child-one">text in second box</div>
-</div>
-
-
-
-
-
-
-
-
-
-<div class="dv-box">
-  <div class="dv-box-child dv-box-child-one">box three</div>
-  <img class="dv-box-child img" src="/img/frogfinal.jpg" alt="test picture"> 
-  <div class="dv-box-child dv-box-child-one">text in second box</div>
-</div>
-
-<div class="dv-box">
-  <div class="dv-box-child dv-box-child-one">box three</div>
-  <img class="dv-box-child img" src="/img/frogfinal.jpg" alt="test picture"> 
-  <div class="dv-box-child dv-box-child-one">text in second box</div>
 </div>
                     
    </main>  

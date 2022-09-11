@@ -90,7 +90,7 @@ ul li a{
  .box-demonstration {
   position: relative;
   background: blue;
-  padding: 20px #grey;
+  padding: 20px;
   margin: 50px;
   border: 11px solid rgb(235, 133, 226);
   text-align: center;

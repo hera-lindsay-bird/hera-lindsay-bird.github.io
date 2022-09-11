@@ -67,11 +67,9 @@ ul li a{
   right: 5%;
   top: 5%;
   left: 5%;
-  background-color: black;
   margin: opx;
-  overflow: hidden;
-  border: salmon solid 15px;
-  color: rgb(68, 173, 91);
+  overflow:hidden;
+  color: #FA26EB;
 
 }
 

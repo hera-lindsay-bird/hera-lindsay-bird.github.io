@@ -218,6 +218,8 @@ ul li a{
 
 .readabletext {
   size: 10px;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .redtext {

@@ -35,6 +35,13 @@ h3 {
     font-size: 90%; 
     }
 
+h4 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #FF522A;
+  text-align: center;
+  font-size: 55px;
+}
+
 ul {
     }
 
@@ -69,7 +76,7 @@ ul li a{
   right: 5%;
   top: 5%;
   left: 5%;
-  margin: opx;
+  margin: 0px;
   overflow:hidden;
   color: #FF522A;
 
@@ -128,8 +135,8 @@ ul li a{
 .child-one {
    position: relative;
    width: 75%;
-   height: 100px;
-   background: #f5e347ad;
+   height: 200px;
+   background: #e5d3eead;
    padding: 10%;
    text-align: center;
    margin: 10px; 
@@ -139,7 +146,7 @@ ul li a{
    position: relative;
    width: 75%;
    height: 100px;
-   background: #c50d0d;
+   background: #fdf6b5;
    padding: 10%;
    text-align: center;
    margin: 10px;  
@@ -218,7 +225,7 @@ ul li a{
 
 .readabletext {
   size: 10px;
-  color: rgb(216, 15, 156);
+  color: rgb(7, 7, 7);
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 

@@ -134,8 +134,8 @@ ul li a{
 }
 .child-one {
    position: relative;
-   width: 75%;
-   height: 200px;
+   width: auto;
+   height: auto;
    background: #e5d3eead;
    padding: 10%;
    text-align: center;
@@ -144,8 +144,8 @@ ul li a{
  
 .child-two {
    position: relative;
-   width: 75%;
-   height: 100px;
+   width: auto;
+   height: auto;
    background: #fdf6b5;
    padding: 10%;
    text-align: center;
@@ -182,13 +182,14 @@ ul li a{
 
 .dv-box-child-one {
   position: relative;
-  background: white;
+  background: rgb(221, 130, 130);
   width: auto;
   height: auto;
   border: 10px solid white;
   padding: 0%;
   text-align: center;
   margin: 0px;
+  border: 10px solid black;
      }
 
 .dv-box-child-three {

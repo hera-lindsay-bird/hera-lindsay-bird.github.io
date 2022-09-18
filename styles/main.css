@@ -20,7 +20,7 @@ body {
      }
  
 h1  {
-    color: #77801B;
+    color: #FF634B;
     font-size: 70px;
      } 
 
@@ -244,6 +244,23 @@ ul li a{
 .largertext {
   font-size: 100px;
 }
+
+.container {
+  width: 100%;
+  height: 30vh; 
+  background: #FFE273;
+  color: #FF634B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.container h1{
+  font-size: 80px;
+  font-weight: 600;
+}
+
 
  
 @media all and (min-width: 320px) {

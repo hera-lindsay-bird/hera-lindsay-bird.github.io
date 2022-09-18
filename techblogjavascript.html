@@ -15,6 +15,10 @@
   background-color: black;
   color: white;
    }
+
+   .animatedtextsize {
+    font-size: 50px;
+   }
  
   </style>
 
@@ -33,9 +37,25 @@
    
 <main>
   <br>
+  
+ 
+  <div class ="container">
+    <h1> <span class="auto-type animatedtextsize"></span></h1>
+  </div>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  
+  <script>
+  let typed = new Typed(".auto-type",  {
+  strings: ["JAVASCRIPT FUNDAMENTALS" , "CONTROL FLOW AND LOOPS" , "THE DOM" , "ARRAYS AND OBJECTS" ,"FUNCTIONS"],
+  typeSpeed: 150,
+  loop: true,
+  })
+  
+  </script>
   <br>
-  <h2>JAVASCRIPT FUNDAMENTALS</h2>
-  <br>
+
   
   <div class="dv-box">
      <div class="dv-box-child-">

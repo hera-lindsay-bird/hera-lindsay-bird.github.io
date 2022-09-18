@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0px;
     padding: 0;
     text-decoration: none;
         }
@@ -17,6 +17,7 @@ body {
     font-family:'Goblin One', cursive;
     color: #341342;
     line-height: 1.8;
+    margin: 75px;
      }
  
 h1  {
@@ -45,7 +46,7 @@ h4 {
 .cleartext {
   font-size: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  text-align: justify;
+  text-align: center;
  }
 
 ul {
@@ -252,7 +253,7 @@ ul li a{
 }
 
 .plumtext {
-  color:white;
+  color:rgb(243, 136, 220);
 }
 
 .greentext {

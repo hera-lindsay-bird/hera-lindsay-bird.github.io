@@ -182,10 +182,9 @@ ul li a{
 
 .dv-box-child-one {
   position: relative;
-  background: rgb(221, 130, 130);
+  background: white;
   width: auto;
   height: auto;
-  border: 10px solid white;
   padding: 0%;
   text-align: center;
   margin: 0px;

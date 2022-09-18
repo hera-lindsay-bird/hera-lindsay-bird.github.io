@@ -44,8 +44,3 @@ function psychoKiller(faFa, runRun) {}
 //  typeSPeed: 50,
 //  loop: true,
 //})
-
-function townCrier() {
-  console.log('Hear Ye! Hear Ye!')
-}
-townCrier()

@@ -212,6 +212,18 @@ ul li a{
   border: 10px solid black;
   border-radius: 15px;
     }
+
+.boxleft {
+  background: yellow;
+  position: relative;
+  height: auto;
+  width: auto;
+  padding: 10px;
+  margin: 5%;
+  border: 10px solid black;
+  border-radius: 15px;
+  text-align: left;
+}
      
 .dv-box-child-two {
   position: relative;
@@ -234,7 +246,7 @@ ul li a{
 }
 
 .plumtext {
-  color:plum;
+  color:white;
 }
 
 .greentext {

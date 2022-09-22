@@ -8,7 +8,7 @@ nav {
   background-color: #D5FE9B;
   position: relative;
   padding: 0px;
-  text-align: left;
+  text-align: center;
   margin: 0px;
 }
 
@@ -16,6 +16,7 @@ body {
   background: #ffffff;
   font-family: 'Goblin One', cursive;
   color: #341342;
+  text-align: center;
   line-height: 1.8;
   margin: 75px;
 }

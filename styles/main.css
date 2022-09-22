@@ -1,40 +1,40 @@
 * {
-    margin: 0px;
-    padding: 0;
-    text-decoration: none;
-        }
+  margin: 0px;
+  padding: 0;
+  text-decoration: none;
+}
 
 nav {
-background-color: #D5FE9B;
-position: relative;
-padding:0px;
-text-align: left;
-margin: 0px;
-                }
- 
+  background-color: #D5FE9B;
+  position: relative;
+  padding: 0px;
+  text-align: left;
+  margin: 0px;
+}
+
 body {
-    background:#ffffff;
-    font-family:'Goblin One', cursive;
-    color: #341342;
-    line-height: 1.8;
-    margin: 75px;
-     }
- 
-h1  {
-    color: #FF634B;
-    font-size: 70px;
-     } 
+  background: #ffffff;
+  font-family: 'Goblin One', cursive;
+  color: #341342;
+  line-height: 1.8;
+  margin: 75px;
+}
+
+h1 {
+  color: #FF634B;
+  font-size: 70px;
+}
 
 h2 {
   color: #F55E4B;
-  font-size:60px;
+  font-size: 60px;
   text-align: center;
-                }   
- 
+}
+
 h3 {
-    text-align: left;  
-    font-size: 90%; 
-    }
+  text-align: left;
+  font-size: 90%;
+}
 
 h4 {
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -47,30 +47,29 @@ h4 {
   font-size: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
- }
+}
 
-ul {
-    }
+ul {}
 
 ul li {
-    list-style: none;
-    display: inline-block;  
-    line-height: 100px;     
-    }
-    
-ul li a{
-    padding: 0 20px;
-     display: block;
-        }
- 
-.smaller-image { 
+  list-style: none;
+  display: inline-block;
+  line-height: 100px;
+}
+
+ul li a {
+  padding: 0 20px;
+  display: block;
+}
+
+.smaller-image {
   max-width: 50%;
-  text-align:left;
-   }
- 
+  text-align: left;
+}
+
 .img {
-   max-width: 100%;
-   text-align: center;
+  max-width: 100%;
+  text-align: center;
 }
 
 .container {
@@ -84,7 +83,7 @@ ul li a{
   top: 5%;
   left: 5%;
   margin: 0px;
-  overflow:hidden;
+  overflow: hidden;
   color: #FF522A;
 
 }
@@ -93,17 +92,17 @@ ul li a{
   border-color: #FFFDC4;
   border-width: 20px;
   border-style: solid;
-  border-radius: 50%;  
-  }
+  border-radius: 50%;
+}
 
- .thin-green-border {
- border-color: #D5FE9B;
- border-width: 10px;
- border-style: solid;
- border-radius: 20px;
-    }       
-        
- .box-demonstration {
+.thin-green-border {
+  border-color: #D5FE9B;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 20px;
+}
+
+.box-demonstration {
   position: relative;
   background: blue;
   padding: 20px;
@@ -111,68 +110,70 @@ ul li a{
   border: 11px solid rgb(235, 133, 226);
   text-align: center;
   border-radius: 15px;
-                   } 
-                   
-     
+}
+
+
 .black-box {
   background-color: black;
   padding: 20px;
-      }
- 
+}
+
 .banner {
   position: relative;
   display: flex;
   background: rgb(187, 31, 31);
-  padding:20px;
+  padding: 20px;
   text-align: center;
   margin: 20px 10px;
   border: 20px solid rgb(22, 183, 204);
-        }
-     
- 
+}
+
+
 .parent {
-   position: relative;
-   background: #b35555;
-   padding: 25px;
-   text-align: center;
-   margin: 15px;
-   border: 10px solid black;
- 
+  position: relative;
+  background: #b35555;
+  padding: 25px;
+  text-align: center;
+  margin: 15px;
+  border: 10px solid black;
+
 }
+
 .child-one {
-   position: relative;
-   width: auto;
-   height: auto;
-   background: #e5d3eead;
-   padding: 10%;
-   text-align: center;
-   margin: 10px; 
-   }
- 
+  position: relative;
+  width: auto;
+  height: auto;
+  background: #e5d3eead;
+  padding: 10%;
+  text-align: center;
+  margin: 10px;
+}
+
 .child-two {
-   position: relative;
-   width: auto;
-   height: auto;
-   background: #fdf6b5;
-   padding: 10%;
-   text-align: center;
-   margin: 10px;  
- 
+  position: relative;
+  width: auto;
+  height: auto;
+  background: #fdf6b5;
+  padding: 10%;
+  text-align: center;
+  margin: 10px;
+
 }
+
 .child-three {
-   position: relative;
-   width: 75%;
-   height: 100px;
-   background: khaki;
-   padding: 10%;
-   text-align: center;
-   margin: 10px;  
+  position: relative;
+  width: 75%;
+  height: 100px;
+  background: khaki;
+  padding: 10%;
+  text-align: center;
+  margin: 10px;
 }
- 
+
 .dv-box {
   position: relative;
   background: white;
-  padding:20px;
+  padding: 20px;
   text-align: center;
   margin: 3%;
   border: 20px solid white;
@@ -181,7 +182,7 @@ ul li a{
 .dv-box-black {
   position: relative;
   background: black;
-  padding:20px;
+  padding: 20px;
   text-align: center;
   margin: 3%;
   border: 20px solid black;
@@ -196,7 +197,7 @@ ul li a{
   text-align: center;
   margin: 0px;
   border: 10px solid black;
-     }
+}
 
 .dv-box-child-three {
   position: relative;
@@ -207,7 +208,7 @@ ul li a{
   padding: 4%;
   text-align: left;
   margin: 0px;
-         }
+}
 
 .box {
   background: yellow;
@@ -218,7 +219,7 @@ ul li a{
   margin: 5%;
   border: 10px solid black;
   border-radius: 15px;
-    }
+}
 
 .boxleft {
   background: yellow;
@@ -231,7 +232,7 @@ ul li a{
   border-radius: 15px;
   text-align: left;
 }
-     
+
 .dv-box-child-two {
   position: relative;
   width: auto;
@@ -253,11 +254,11 @@ ul li a{
 }
 
 .plumtext {
-  color:rgb(243, 136, 220);
+  color: rgb(243, 136, 220);
 }
 
 .greentext {
-  color:lawngreen;
+  color: lawngreen;
 }
 
 .largertext {
@@ -266,7 +267,7 @@ ul li a{
 
 .container {
   width: 100%;
-  height: 30vh; 
+  height: 30vh;
   background: #FFE273;
   color: #FF634B;
   display: flex;
@@ -275,24 +276,24 @@ ul li a{
 }
 
 
-.container h1{
+.container h1 {
   font-size: 80px;
   font-weight: 600;
 }
 
 
- 
+
 @media all and (min-width: 320px) {
+  body {
+    background-color: #e3d7f7;
+  }
+
+  @media all and (min-width: 768px) {
     body {
-        background-color:#e3d7f7;             
+      background-color: #FFFDC4;
     }
- 
-@media all and (min-width: 768px) {
-    body {
-        background-color: #FFFDC4;
-    }
- 
-@media all and (min-width: 1200px) {
-        body {
-        background-color:white;
-    }
+
+    @media all and (min-width: 1200px) {
+      body {
+        background-color: white;
+      }

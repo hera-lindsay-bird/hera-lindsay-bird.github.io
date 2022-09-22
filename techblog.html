@@ -1,94 +1,151 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Goblin+One&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Goblin+One&display=swap"
+      rel="stylesheet"
+    />
     <title>Technical blog</title>
     <link href="styles/main.css" rel="stylesheet" />
-    
-  <style>
 
- .black {
-  background-color: black;
-  color: white;
-   }
- 
-  </style>
-
+    <style>
+      .black {
+        background-color: black;
+        color: white;
+      }
+    </style>
   </head>
 
   <body>
-   
-   <nav>
-    <ul>
-      <li><a href="/index.html">HOME SWAMP</a></li>
-      <li><a href="sinister-intentions.html">SINISTER INTENTIONS</a></li>
-      <li><a href="javascript-dom.html">JAVASCRIPT</a></li>
-      <li><a href="byrne.html">PSYCHO KILLER</a></li>
-      <li><a href="emotionalintelligence.html">EMOTIONAL INTELLIGENCE</a></li>
+    <nav>
+      <ul>
+        <li><a href="/index.html">HOME SWAMP</a></li>
+        <li><a href="sinister-intentions.html">SINISTER INTENTIONS</a></li>
+        <li><a href="javascript-dom.html">JAVASCRIPT</a></li>
+        <li><a href="byrne.html">PSYCHO KILLER</a></li>
+        <li><a href="emotionalintelligence.html">EMOTIONAL INTELLIGENCE</a></li>
       </ul>
-  </nav>
-   
-<main>
-  <br>
-  <br>
-  <h2>MARGINS, BORDERS & PADDING</h2>
-  <br>
-  
-  <div class="dv-box">
-     <div class="dv-box-child-">The internet is made of boxes<br><br>Any HTML element on a website can be a "box"
-        A picture of a horse. A paragraph of text. An interactive element, like a newsletter sign up form. <br><br>
-        But how do we arrange these "boxes" on the page? <br> <br>
+    </nav>
 
-      We are going to explore <span class="redtext">MARGINS</span>, <span class="plumtext">BORDERS</span> and <span class="greentext">PADDING</span> using the analogy of a painting/art gallery. </div><br>
-     <img class="img" src="/img/exampletwo.png" alt="crocodile picture"> 
-     <div class="dv-box-child-three">We can think of a webpage like the wall of an art gallery. And we can think of our elements as paintings. 
-      There are a number of paintings we want to hang on our gallery wall. But first, take a look at the painting above. In this analogy, the painting represents our element. The area between the element and the border is called padding. The border is our "picture frame." The margin is the empty space around each picture. <br><br></div>
-    </div>
-    <div class="box-demonstration">
-      <div class="box">HERE IS A BOX</div>
-   </div>
-    <div class="dv-box">
-      <div class="dv-box-child-one">This is the code I used to create the box pictured above. Here is the HTML:  </div>
-      <br>
-      <img class="img dv-box-child-two" src="/img/boxdemo.png" alt="code screenshot">
-      <br>
-      <br>
-      <br>
-      <div class="dv-box-child-one"> This is an example of a class I made to style the box. If I wanted to change the padding, margin and border values of the yellow box I could do so by editing the values below</div>
-      <br>
-      <img class="img dv-box-child-two" src="img/boxdemotwo.png" alt="css screenshot"> 
-      </div>
-    
-    <div class="dv-box">
-        <div class="dv-box-child dv-box-child-one">The margin is the space around the “painting.” We can think of it as an invisible barrier which surrounds each painting. </div> 
-        <br>
-        <img class="img dv-box-child-two" src="/img/frogclean.jpg" alt="frog looking at paintings">
-        <div class="dv-box-child dv-box-child-one">wow, the margins on these paintings sure are strange...</div>
-    </div>
+    <main>
+      <br />
+      <br />
+      <h2>MARGINS, BORDERS & PADDING</h2>
+      <br />
 
-    <div class="dv-box">
-      <div class="dv-box-child-one">
-        The border is the edge of the element or the painting. The border is by default invisible, although it's easy to change the border's colour, syle and size using css classes. You can think of the border like a picture frame 
+      <div class="dv-box">
+        <div class="dv-box-child-">
+          The internet is made of boxes<br /><br />Any HTML element on a website
+          can be a "box" A picture of a horse. A paragraph of text. An
+          interactive element, like a newsletter sign up form. <br /><br />
+          But how do we arrange these "boxes" on the page? <br />
+          <br />
+
+          We are going to explore <span class="redtext">MARGINS</span>,
+          <span class="plumtext">BORDERS</span> and
+          <span class="greentext">PADDING</span> using the analogy of a
+          painting/art gallery.
         </div>
-        <br>
-      <img class="img" src="img/frognoborder.jpg" alt="frog looking at paintings"> 
-      <div class="dv-box-child dv-box-child-one">hmm, this painting seems to have an invisible picture frame</div>
-  </div>
+        <br />
+        <img class="img" src="/img/exampletwo.png" alt="crocodile picture" />
+        <div class="dv-box-child-three">
+          We can think of a webpage like the wall of an art gallery. And we can
+          think of our elements as paintings. There are a number of paintings we
+          want to hang on our gallery wall. But first, take a look at the
+          painting above. In this analogy, the painting represents our element.
+          The area between the element and the border is called padding. The
+          border is our "picture frame." The margin is the empty space around
+          each picture. <br /><br />
+        </div>
+      </div>
+      <div class="box-demonstration">
+        <div class="box">HERE IS A BOX</div>
+      </div>
+      <div class="dv-box">
+        <div class="dv-box-child-one">
+          This is the code I used to create the box pictured above. Here is the
+          HTML:
+        </div>
+        <br />
+        <img
+          class="img dv-box-child-two"
+          src="/img/boxdemo.png"
+          alt="code screenshot"
+        />
+        <br />
+        <br />
+        <br />
+        <div class="dv-box-child-one">
+          This is an example of a class I made to style the box. If I wanted to
+          change the padding, margin and border values of the yellow box I could
+          do so by editing the values below
+        </div>
+        <br />
+        <img
+          class="img dv-box-child-two"
+          src="img/boxdemotwo.png"
+          alt="css screenshot"
+        />
+      </div>
 
-    <div class="dv-box">
-    <div class="dv-box-child-one">Padding is the area between the border (picture frame) and the content (picture of alligator riding mouse.) These paintings have no visible padding. Maybe they'd look nicer with a little breathing room?</div>
-     <br>
-    <img class="img" src="/img/frognomargins.jpg" alt="frog looking at paintings"> 
-    <div class="dv-box-child-one">...</div>
-    <img class="img" src="/img/frogfinal.jpg" alt="frog looking at paintings"> 
-    <div class="dv-box-child-one">Perfect!</div>
-</div>
-          
-   </main>  
-   </body>
+      <div class="dv-box">
+        <div class="dv-box-child dv-box-child-one">
+          The margin is the space around the “painting.” We can think of it as
+          an invisible barrier which surrounds each painting.
+        </div>
+        <br />
+        <img
+          class="img dv-box-child-two"
+          src="/img/frogclean.jpg"
+          alt="frog looking at paintings"
+        />
+        <div class="dv-box-child dv-box-child-one">
+          wow, the margins on these paintings sure are strange...
+        </div>
+      </div>
+
+      <div class="dv-box">
+        <div class="dv-box-child-one">
+          The border is the edge of the element or the painting. The border is
+          by default invisible, although it's easy to change the border's
+          colour, syle and size using css classes. You can think of the border
+          like a picture frame
+        </div>
+        <br />
+        <img
+          class="img"
+          src="img/frognoborder.jpg"
+          alt="frog looking at paintings"
+        />
+        <div class="dv-box-child dv-box-child-one">
+          hmm, this painting seems to have an invisible picture frame
+        </div>
+      </div>
+
+      <div class="dv-box">
+        <div class="dv-box-child-one">
+          Padding is the area between the border (picture frame) and the content
+          (picture of alligator riding mouse.) These paintings have no visible
+          padding. Maybe they'd look nicer with a little breathing room?
+        </div>
+        <br />
+        <img
+          class="img"
+          src="/img/frognomargins.jpg"
+          alt="frog looking at paintings"
+        />
+        <div class="dv-box-child-one">...</div>
+        <img
+          class="img"
+          src="/img/frogfinal.jpg"
+          alt="frog looking at paintings"
+        />
+        <div class="dv-box-child-one">Perfect!</div>
+      </div>
+    </main>
+  </body>
 </html>
-

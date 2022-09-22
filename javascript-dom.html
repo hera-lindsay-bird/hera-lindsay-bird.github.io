@@ -1,176 +1,208 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Goblin+One&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Goblin+One&display=swap"
+      rel="stylesheet"
+    />
     <title>Javascriptdom</title>
     <link href="styles/main.css" rel="stylesheet" />
-    
-  <style>
 
-  
- .black {
-  background-color: black;
-  color: white;
-   }
+    <style>
+      .black {
+        background-color: black;
+        color: white;
+      }
 
-   .animatedtextsize {
-    font-size: 50px;
-   }
-
- 
- 
-  </style>
-
+      .animatedtextsize {
+        font-size: 50px;
+      }
+    </style>
   </head>
 
   <body>
-   
-   <nav>
-    <ul>
-      <li><a href="/index.html">HOME SWAMP</a></li>
-       <li><a href="sinister-intentions.html">SINISTER INTENTIONS</a></li>
-       <li><a href="techblog.html">TECHNICAL BLOG</a></li>
-       <li><a href="byrne.html">PSYCHO KILLER</a></li>
-       <li><a href="emotionalintelligence.html">EMOTIONAL INTELLIGENCE</a></li>
+    <nav>
+      <ul>
+        <li><a href="/index.html">HOME SWAMP</a></li>
+        <li><a href="techblog.html">TECHNICAL BLOG</a></li>
+        <li><a href =""></a></li>
       </ul>
-  </nav>
-   
-<main>
-  <br>
-  
- 
-  <div class ="container">
-    <h1> <span class="auto-type animatedtextsize"></span></h1>
-  </div>
-  
-  
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-  
-  <script>
-  let typed = new Typed(".auto-type",  {
-  strings: ["JAVASCRIPT FUNDAMENTALS" , "CONTROL FLOW AND LOOPS" , "THE DOM" , "ARRAYS AND OBJECTS" ,"FUNCTIONS"],
-  typeSpeed: 150,
-  loop: true,
-  })
-  
-  </script>
-  <br>
+    </nav>
 
-  
-  <div class="dv-box">
-     <div class="dv-box-child cleartext">
-     Javascript makes websites interactive. <br> We can think of Javascript like the town crier, declaring variables and calling out functions.
-     </div><br>
-      <img class="img" src="/img/hearye.png" alt="Town Crier Javascript"> 
-      <br>
-      <br>
-      <img class="img" src="/img/towncrier.jpg" alt="Town Crier"> 
-      <br> <br>
-      <div class="dv-box-child cleartext">
-        We can imagine a webpage as a boat floating in the middle of the internet. <br> HTML = the physical materials that make up the boat. The wood,  the furniture, every object aboard. <br> The CSS is the ‘styling’ of the boat. It’s the layout, the blue paint of the exterior, the size of the elements and how they fit together.<br>Javascript is like the engine room, where everything “happens.” Anything that “onboard” which could be described as a process or action, is powered by Javascript. Javascript could also be the kettle boiling in the ship’s kitchen, and the radio tower sending signals, or the mouse swabbing the deck.      </div><br>
-      <img class="img" src="/img/BOAT.jpg" alt="Richard Scarry Boat"> 
-      <br>
-      <div class="dv-box-child cleartext">
-        Control flow refers to the ORDER in which Javascript reads and executes  our instructions. In a way, it’s like a last will and testament
+    <main>
+      <br />
+
+      <div class="container">
+        <h1><span class="auto-type animatedtextsize"></span></h1>
       </div>
-      <img class="img" src="/img/lastwill.jpg" alt="Last Will and Testament"> 
-      <div class="dv-box-child cleartext">
-        The most recent amendments (at the bottom of the document) typically overwrite any prior commands, although with Javascript you can create functions which happen continually/ a specified number of times/ trigger a chain of events. 
-      </div><br>
-      <img class="img" src="/img/loops.jpg" alt="Rollercoaster"> 
 
-       <br>
-       <div class="dv-box-child cleartext">
-        LOOPS are used in javascript to perform a repeating task. 
-        <br>
-        Loops are useful, because they’re an efficient and readable way to repeat parts of our code, or execute repeating functions. 
-        <br>
-        An example of an everyday “loop” might look like:
-        <br>
-        <br>
-        Making a cup of tea loop
-        <br>
-        <br>
-        Boil kettle
-        <br>
-        Put teabag in cup 
-        <br>
-        Pour boiling water from kettle into cup
-        <br>
-        Let the teabag steep
-        <br>
-        Take the teabag out 
-        <br>
-        Add milk
-        <br>
-        Drink tea
-        <br>
-        Teacup empty?
-        <br>
-        Repeat. 
-        <br>
-        <br>
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+      <script>
+        let typed = new Typed('.auto-type', {
+          strings: [
+            'JAVASCRIPT FUNDAMENTALS',
+            'CONTROL FLOW AND LOOPS',
+            'THE DOM',
+            'ARRAYS AND OBJECTS',
+            'FUNCTIONS',
+          ],
+          typeSpeed: 150,
+          loop: true,
+        })
+      </script>
+      <br />
+
+      <div class="dv-box">
+        <div class="dv-box-child cleartext">
+          Javascript makes websites interactive. <br />
+          We can think of Javascript like the town crier, declaring variables
+          and calling out functions.
+        </div>
+        <br />
+        <img class="img" src="/img/hearye.png" alt="Town Crier Javascript" />
+        <br />
+        <br />
+        <img class="img" src="/img/towncrier.jpg" alt="Town Crier" />
+        <br />
+        <br />
+        <div class="dv-box-child cleartext">
+          We can imagine a webpage as a boat floating in the middle of the
+          internet. <br />
+          HTML = the physical materials that make up the boat. The wood, the
+          furniture, every object aboard. <br />
+          The CSS is the ‘styling’ of the boat. It’s the layout, the blue paint
+          of the exterior, the size of the elements and how they fit
+          together.<br />Javascript is like the engine room, where everything
+          “happens.” Anything that “onboard” which could be described as a
+          process or action, is powered by Javascript. Javascript could also be
+          the kettle boiling in the ship’s kitchen, and the radio tower sending
+          signals, or the mouse swabbing the deck.
+        </div>
+        <br />
+        <img class="img" src="/img/BOAT.jpg" alt="Richard Scarry Boat" />
+        <br />
+        <div class="dv-box-child cleartext">
+          Control flow refers to the ORDER in which Javascript reads and
+          executes our instructions. In a way, it’s like a last will and
+          testament
+        </div>
+        <img
+          class="img"
+          src="/img/lastwill.jpg"
+          alt="Last Will and Testament"
+        />
+        <div class="dv-box-child cleartext">
+          The most recent amendments (at the bottom of the document) typically
+          overwrite any prior commands, although with Javascript you can create
+          functions which happen continually/ a specified number of times/
+          trigger a chain of events.
+        </div>
+        <br />
+        <img class="img" src="/img/loops.jpg" alt="Rollercoaster" />
+
+        <br />
+        <div class="dv-box-child cleartext">
+          LOOPS are used in javascript to perform a repeating task.
+          <br />
+          Loops are useful, because they’re an efficient and readable way to
+          repeat parts of our code, or execute repeating functions.
+          <br />
+          An example of an everyday “loop” might look like:
+          <br />
+          <br />
+          Making a cup of tea loop
+          <br />
+          <br />
+          Boil kettle
+          <br />
+          Put teabag in cup
+          <br />
+          Pour boiling water from kettle into cup
+          <br />
+          Let the teabag steep
+          <br />
+          Take the teabag out
+          <br />
+          Add milk
+          <br />
+          Drink tea
+          <br />
+          Teacup empty?
+          <br />
+          Repeat.
+          <br />
+          <br />
         </div>
 
-        <img class="img" src="/img/tea.jpg" alt="Old Lady Drinking Tea"> 
-        <br>
-        <br>
+        <img class="img" src="/img/tea.jpg" alt="Old Lady Drinking Tea" />
+        <br />
+        <br />
         <div class="dv-box-child cleartext">
-          If else loops are useful, because they allow us to set certain conditions
-          <br>
+          If else loops are useful, because they allow us to set certain
+          conditions
+          <br />
           An example of an if else loop could look like
-          <br>
-          </div>
+          <br />
+        </div>
         <div class="boxleft">
           if (postman = true) {
-        <p style="margin-left:2.5em;"> response = “BARK BARK BARK:’ }</p>
-        <p style="margin-left:2.5em;"> else {</p>
-          <p style="margin-left:2.5em;"> response= “WAG TAIL"</p>
-            }
+          <p style="margin-left: 2.5em">response = “BARK BARK BARK:’ }</p>
+          <p style="margin-left: 2.5em">else {</p>
+          <p style="margin-left: 2.5em">response= “WAG TAIL"</p>
+          }
         </div>
         <h2>FUNCTIONS</h2>
-        <br>
-        <br>
+        <br />
+        <br />
         <div class="dv-box-child cleartext">
-          Functions are the basic building blocks of javascript. They are blocks of code which perform some kind of action, whether that’s as simple as logging a welcome message to a user after they enter an input 
-          <br><br>(hello SANTA CLAUS welcome back to Hallensteins)
-          <br><br>or asking our code to search within an array of data (say, the entire text of War and Peace by Tostoy) and find every instance of the word snow, including the adjectives immediately preceding the word snow, and whether or not the related adjectives are the same across different translations. Why you would need such a function I have no idea. But you could certainly make one. 
+          Functions are the basic building blocks of javascript. They are blocks
+          of code which perform some kind of action, whether that’s as simple as
+          logging a welcome message to a user after they enter an input
+          <br /><br />(hello SANTA CLAUS welcome back to Hallensteins)
+          <br /><br />or asking our code to search within an array of data (say,
+          the entire text of War and Peace by Tostoy) and find every instance of
+          the word snow, including the adjectives immediately preceding the word
+          snow, and whether or not the related adjectives are the same across
+          different translations. Why you would need such a function I have no
+          idea. But you could certainly make one.
         </div>
-        <br>
-        <br>
+        <br />
+        <br />
         <h2>THE DOCUMENT OBJECT MODEL</h2>
-        <br>
-        <br>
-        <br>
+        <br />
+        <br />
+        <br />
         <div class="dv-box-child cleartext">
-          The DOM stands for the Document Object Model. It’s a map of every part of a website, and all of its contents. It looks like a family tree. You can use the DOM to find and manipulate objects. If you wanted to write out the beginning of the Old Testament as the Document Object Model, it might look something like this: 
-        </div><br>
-        <img class="img" src="/img/dom.png" alt="Document Object Model"> 
+          The DOM stands for the Document Object Model. It’s a map of every part
+          of a website, and all of its contents. It looks like a family tree.
+          You can use the DOM to find and manipulate objects. If you wanted to
+          write out the beginning of the Old Testament as the Document Object
+          Model, it might look something like this:
+        </div>
+        <br />
+        <img class="img" src="/img/dom.png" alt="Document Object Model" />
         <h2>OBJECTS AND ARRAYS</h2>
         <div class="dv-box-child cleartext">
-          Objects and Arrays are both blocks of code which store information, which can then be retrieved. 
-          <br><br>An OBJECT contains information, like the cake object shown below. If I wanted to find how much flour there was in the cake, I could use the key: flour to retrieve the information.  
-          <br><br>An ARRAY is an ordered list, and any item from the array can be accessed by referencing its position in the array. For instance, if you had an array of Mitford Sisters ordered by age, you would be able to access Nancy Mitford like this:  
-         </div><br><br>
-         <img class="img" src="/img/arrayobject.png" alt="Arrays and Objects"> 
-        <br>
-
-
-        </div><br>
-             
-</main>  
-   </body>
+          Objects and Arrays are both blocks of code which store information,
+          which can then be retrieved.
+          <br /><br />An OBJECT contains information, like the cake object shown
+          below. If I wanted to find how much flour there was in the cake, I
+          could use the key: flour to retrieve the information. <br /><br />An
+          ARRAY is an ordered list, and any item from the array can be accessed
+          by referencing its position in the array. For instance, if you had an
+          array of Mitford Sisters ordered by age, you would be able to access
+          Nancy Mitford like this:
+        </div>
+        <br /><br />
+        <img class="img" src="/img/arrayobject.png" alt="Arrays and Objects" />
+        <br />
+      </div>
+      <br />
+    </main>
+  </body>
 </html>
-
-
-
-
-
-
-
-
-

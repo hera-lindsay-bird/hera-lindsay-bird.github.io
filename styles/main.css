@@ -263,6 +263,21 @@ ul li a {
   color: lawngreen;
 }
 
+.bluetext {
+  color: rgb(119, 117, 226);
+}
+
+.orangetext {
+  color: rgb(230, 137, 30);
+}
+
+.lilactext {
+  color: rgb(137, 113, 175);
+}
+
+.greenertext {
+  color: rgb(120, 196, 33);
+}
 .largertext {
   font-size: 100px;
 }

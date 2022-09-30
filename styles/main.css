@@ -1,6 +1,6 @@
 * {
   margin: 0px;
-  padding: 0;
+  padding: 10px;
   text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ h4 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #FF522A;
   text-align: center;
-  font-size: 55px;
+  font-size: 35px;
 }
 
 .cleartext {
@@ -57,7 +57,9 @@ h4 {
   text-align: left;
 }
 
-ul {}
+.bigunicode {
+  font-size: 80px;
+}
 
 ul li {
   list-style: none;
@@ -110,6 +112,14 @@ ul li a {
   border-radius: 20px;
 }
 
+.hot-pink-border {
+  border-color: #FF522A;
+  border-width: 55px;
+  padding: 0px;
+  border-style: groove;
+  border-radius: 20px;
+}
+
 .box-demonstration {
   position: relative;
   background: blue;
@@ -139,7 +149,7 @@ ul li a {
 
 .parent {
   position: relative;
-  background: #b35555;
+  background: #af4242;
   padding: 25px;
   text-align: center;
   margin: 15px;
@@ -151,7 +161,7 @@ ul li a {
   position: relative;
   width: auto;
   height: auto;
-  background: #e5d3eead;
+  background: hsl(61, 92%, 86%);
   padding: 10%;
   text-align: center;
   margin: 10px;
@@ -161,7 +171,7 @@ ul li a {
   position: relative;
   width: auto;
   height: auto;
-  background: #fdf6b5;
+  background: #dbffb9;
   padding: 10%;
   text-align: center;
   margin: 10px;
@@ -172,7 +182,7 @@ ul li a {
   position: relative;
   width: 75%;
   height: 100px;
-  background: khaki;
+  background: rgb(240, 236, 203);
   padding: 10%;
   text-align: center;
   margin: 10px;
@@ -190,9 +200,9 @@ ul li a {
 .poirot-box {
   position: relative;
   background: white;
-  padding: 5px 40px;
+  padding: 30px;
   text-align: left;
-  margin: 10% px;
+  margin: 10%;
   border: 20px solid white;
 }
 
@@ -208,12 +218,12 @@ ul li a {
 .dv-box-child-one {
   position: relative;
   background: white;
-  width: auto;
+  width: 100%;
   height: auto;
   padding: 0%;
   text-align: center;
   margin: 0px;
-  border: 10px solid black;
+  border: 10px solid rgb(255, 255, 255);
 }
 
 .dv-box-child-three {
@@ -221,18 +231,18 @@ ul li a {
   background: white;
   width: auto;
   height: auto;
-  border: 10px solid black;
+  border: 10px solid rgb(17, 155, 17);
   padding: 4%;
   text-align: left;
   margin: 0px;
 }
 
 .box {
-  background: yellow;
+  background: rgb(248, 237, 244);
   position: relative;
   height: auto;
   width: auto;
-  padding: 5px;
+  padding: 20px;
   margin: 5%;
   border: 10px solid black;
   border-radius: 15px;
@@ -293,6 +303,7 @@ ul li a {
 .greenertext {
   color: rgb(120, 196, 33);
 }
+
 .largertext {
   font-size: 100px;
 }
@@ -313,19 +324,47 @@ ul li a {
   font-weight: 600;
 }
 
+.hovertext {
+  position: relative;
+  border-bottom: 1px dotted black;
+}
 
+.hovertext:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: 220px;
+  background-color: rgb(243, 28, 189);
+  color: #fff;
+  text-align: center;
+  border-radius: 15px;
+  padding: 10px 10px;
+  transition: opacity 1s ease-in-out;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 110%;
+}
+
+.hovertext:hover:before {
+  opacity: 0.7;
+  visibility: visible;
+}
 
 @media all and (min-width: 320px) {
   body {
     background-color: #e3d7f7;
   }
+}
 
-  @media all and (min-width: 768px) {
-    body {
-      background-color: #FFFDC4;
-    }
+@media all and (min-width: 768px) {
+  body {
+    background-color: #FFFDC4;
+  }
+}
 
-    @media all and (min-width: 1200px) {
-      body {
-        background-color: white;
-      }
+@media all and (min-width: 1200px) {
+  body {
+    background-color: white;
+  }
+}
